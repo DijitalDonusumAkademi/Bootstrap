@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07-bs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+            h3 {
+                background-color: rgb(124, 9, 9);
+                color: aliceblue;
+            }
+            div{
+                padding: 15px;
+            }
+    </style>
+</head>
+<body>
+    <div class="1">
+        <h3>Dropdown</h3>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Us
+            </button>
+            <div class="dropdown-menu" aria-labelledby="about-us">
+            <a class="dropdown-item" href="#">Our Story</a>
+            <a class="dropdown-item" href="#">Our Team</a>
+            <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+            </div>
+    </div>
+    <div class="2">
+        <h3>Dropup Menu</h3>
+        <div class="dropup">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Us
+            </button>
+            <div class="dropdown-menu" aria-labelledby="about-us">
+            <a class="dropdown-item" href="#">Our Story</a>
+            <a class="dropdown-item" href="#">Our Team</a>
+            <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+            </div>
+            
+            <!-- Add some space so the dropup menu doesn't disappear off the viewport -->
+            <style scoped>
+            .dropup {margin-top:120px;}
+            </style>
+    </div>
+
+    <div class="3">
+        <h3>Align Right</h3>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            This is a wide button to demonstrate the alignment
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="about-us">
+            <a class="dropdown-item" href="#">Our Story</a>
+            <a class="dropdown-item" href="#">Our Team</a>
+            <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+            </div>
+    </div>
+    <div class="4">
+        <h3>Menu Headers</h3>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Us
+            </button>
+            <div class="dropdown-menu" aria-labelledby="about-us">
+            <h6 class="dropdown-header">Company Information</h6>
+            <a class="dropdown-item" href="#">Our Story</a>
+            <a class="dropdown-item" href="#">Our Team</a>
+            <h6 class="dropdown-header">Contact Us</h6>
+            <a class="dropdown-item" href="#">Call Center</a>
+            <a class="dropdown-item" href="#">Store Locations</a>
+            </div>
+            </div>
+    </div>
+    <div class="5">
+        <h3>Dividers</h3>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Us
+            </button>
+            <div class="dropdown-menu" aria-labelledby="about-us">
+            <a class="dropdown-item" href="#">Our Story</a>
+            <a class="dropdown-item" href="#">Our Team</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+            </div>
+    </div>
+    <div class="6">
+        <h3>Disabled Menu Items</h3>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About Us
+            </button>
+            <div class="dropdown-menu" aria-labelledby="about-us">
+            <a class="dropdown-item" href="#">Our Story</a>
+            <a class="dropdown-item" href="#">Our Team</a>
+            <a class="dropdown-item disabled" href="#">Contact Us</a>
+            </div>
+            </div>
+    </div>
+    <div class="7">
+        <h3>Split Dropdowns</h3>
+        <div class="btn-group">
+            <button type="button" class="btn btn-success">About Us</button>
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Our Story</a>
+            <a class="dropdown-item" href="#">Our Team</a>
+            <a class="dropdown-item" href="#">Contact Us</a>
+            </div>
+            </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
